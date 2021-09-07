@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "pelmenid",
+  "version": "${version}",
+
+  "name": "Pelmen",
+  "description": "Pelmen :]",
+  "authors": [
+    "theone_ss"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/members/theone_ss",
+    "sources": "https://github.com/Theoness1/PelmenMod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/pelmeni_preview.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.theoness.pelmenmod.PelmenMain"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "https://www.curseforge.com/minecraft/mc-mods/food-pluss"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "pelmenid:pelmen"
+  },
+  "result": "pelmenid:fried_pelmen",
+  "experience": 0.1,
+  "cookingtime": 120
+}

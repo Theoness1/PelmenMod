@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pelmenid:varenie_pelmeni"
+    }
+  ],
+  "result": {
+    "item": "pelmenid:pelmen",
+    "count": 6
+  }
+}

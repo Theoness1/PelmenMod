@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " B "
+  ],
+  "key": {
+    "#": {
+      "item": "pelmenid:fried_pelmen"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "pelmenid:tarelka_fried_pelmen",
+    "count": 1
+  }
+}

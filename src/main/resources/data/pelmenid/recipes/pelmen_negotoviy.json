@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    " P ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pelmenid:meat_ball"
+    },
+    "P": {
+      "item": "pelmenid:testo_for_pelmen"
+    }
+  },
+  "result": {
+    "item": "pelmenid:pelmen_negotoviy",
+    "count": 6
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #",
+    "P "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:beef"
+    },
+    "P": {
+      "item": "minecraft:porkchop"
+    }
+  },
+
+  "result": {
+    "item": "pelmenid:meat_ball",
+    "count": 6
+  }
+}
