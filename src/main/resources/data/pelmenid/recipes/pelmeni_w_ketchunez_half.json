@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "B"
+  ],
+  "key": {
+    "#": {
+      "item": "pelmenid:ketchunez_half"
+    },
+    "B": {
+      "item": "pelmenid:tarelka_pelmenei"
+    }
+  },
+  "result": {
+
+    "item": "pelmenid:pelmeni_w_ketchunez",
+    "count": 1
+
+  }
+}

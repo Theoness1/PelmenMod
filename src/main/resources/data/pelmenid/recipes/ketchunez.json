@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# ",
+    "GA"
+  ],
+  "key": {
+    "#": {
+      "item": "pelmenid:maionez"
+    },
+    "G": {
+      "item": "pelmenid:ketchup"
+    },
+
+    "A": {
+      "item": "pelmenid:empt_bottle"
+    }
+  },
+  "result": {
+
+    "item": "pelmenid:ketchunez",
+    "count": 1
+
+  }
+}

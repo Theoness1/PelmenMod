@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#LP",
+    "KG "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar"
+    },
+    "L": {
+      "item": "minecraft:lava_bucket"
+    },
+    "P": {
+      "item": "minecraft:poppy"
+    },
+    "K": {
+      "item": "minecraft:paper"
+    },
+    "G": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+
+    "item": "pelmenid:ketchup_zagatovka",
+    "count": 1
+
+  }
+}

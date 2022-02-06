@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "pelmenid:item/sour_cream_zagatovka"
+  }
+
+}

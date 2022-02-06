@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##S",
+    " GW"
+  ],
+  "key": {
+    "#": {
+      "item": "pelmenid:yolk"
+    },
+    "S": {
+      "item": "minecraft:sunflower"
+    },
+
+    "G": {
+      "item": "pelmenid:empt_bottle"
+    },
+    "W": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+
+    "item": "pelmenid:maionez",
+    "count": 1
+
+  }
+}

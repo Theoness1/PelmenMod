@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pelmenid:empt_bottle"
+    }
+  ],
+  "result": {
+
+    "item": "minecraft:glass_bottle",
+    "count": 1
+
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " GM"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar"
+    },
+
+    "G": {
+      "item": "pelmenid:empt_bottle"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+
+    "item": "pelmenid:sour_cream_zagatovka",
+    "count": 1
+
+  }
+}

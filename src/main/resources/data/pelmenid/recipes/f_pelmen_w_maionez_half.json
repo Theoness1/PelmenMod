@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "B"
+  ],
+  "key": {
+    "#": {
+      "item": "pelmenid:maionez_half"
+    },
+    "B": {
+      "item": "pelmenid:tarelka_fried_pelmen"
+    }
+  },
+  "result": {
+
+    "item": "pelmenid:f_pelmen_w_maionez",
+    "count": 1
+
+  }
+}
