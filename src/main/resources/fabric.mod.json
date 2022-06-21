@@ -24,7 +24,7 @@
   },
 
   "mixins": [
-    "pelmen.mixins.json"
+    "pelmenid.mixins.json"
   ],
 
 

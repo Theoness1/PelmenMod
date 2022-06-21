@@ -15,7 +15,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import ru.theoness.pelmenmod.registry.PelmenRegistry;
 
 @Mixin(ItemEntity.class)
-abstract class ItemEntityMixin extends Entity {
+public abstract class ItemEntityMixin extends Entity {
 
 
     public ItemEntityMixin(EntityType<?> type, World world) {
@@ -26,8 +26,7 @@ abstract class ItemEntityMixin extends Entity {
 
     @Shadow public abstract void setStack(ItemStack stack);
 
-    @Inject(at = @At("HEAD"), method = "tick")
-
+    @Inject(method = "tick", at = @At("HEAD"))
     private void tick(CallbackInfo ci) {
 
         if(this.getStack().isOf(PelmenRegistry.PELMEN) && this.isTouchingWater()) {
