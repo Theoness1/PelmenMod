@@ -26,7 +26,7 @@ abstract class ItemEntityMixin extends Entity {
 
     @Shadow public abstract void setStack(ItemStack stack);
 
-    @Inject(at = @At("HEAD"), method = "tick")
+    @Inject(method = "tick", at = @At("HEAD"))
 
     private void tick(CallbackInfo ci) {
 
