@@ -8,13 +8,10 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 public class PelmenMain implements ModInitializer {
-
 	public static final ItemGroup PELMEN_GROUP = FabricItemGroupBuilder.create(
 			new Identifier("pelmenmod", "items"))
 			.icon(() -> new ItemStack(PelmenRegistry.PELMEN))
 			.build();
-
-
 	@Override
 	public void onInitialize() {
 
