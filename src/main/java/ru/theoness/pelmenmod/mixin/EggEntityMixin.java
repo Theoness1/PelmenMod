@@ -15,22 +15,15 @@ import ru.theoness.pelmenmod.registry.PelmenRegistry;
 
 @Mixin(EggEntity.class)
  abstract class EggEntityMixin extends ThrownItemEntity {
-
-
     public EggEntityMixin(EntityType<? extends ThrownItemEntity> entityType, World world) {
         super(entityType, world);
     }
-
     @Inject(at = @At("HEAD"), method = "onCollision")
-
     private void onCollision(HitResult hitResult, CallbackInfo ci){
 
         if(!world.isClient) {
-
             BlockPos pos = this.getLandingPos();
-
             ItemEntity itemEntity = new ItemEntity(world, pos.getX(), pos.getY(), pos.getZ(), PelmenRegistry.YOLK.getDefaultStack());
-
             itemEntity.world.spawnEntity(itemEntity);
         }
 
